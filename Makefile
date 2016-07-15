@@ -3,7 +3,7 @@ CFLAGS=-O0 -g -Wall
 CC = gcc
 
 
-all: tt-demo teste_myops
+all: tt-demo teste-myops
 
 .c.o:
 	$(CC) $(CFLAGS) -c  $<
@@ -30,7 +30,7 @@ lines:
 	wc -l tinytest.c tinytest_macros.h tinytest.h
 
 clean:
-	rm -f *.o *~ tt-demo teste_myops
+	rm -f *.o *~ tt-demo teste-myops
 
 DISTFILES=tinytest.c tinytest_demo.c tinytest.h tinytest_macros.h Makefile \
 	README

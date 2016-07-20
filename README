@@ -1,3 +1,12 @@
+This is a branch with Portuguese examples of Tinytest for use in Computer Science classes.
+
+Simpler examples and a Makefile that is more adapted to my needs are included.
+
+Bellow please find the original message of the developers of this framework and how to 
+get the original, updated code without thse modifications and additions.
+
+------
+
 Tinytest is a tiny little test framework written in C by Nick Mathewson.
 
 It is distributed under the 3-clause BSD license.  You can use it in
